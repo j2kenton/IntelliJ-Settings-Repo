@@ -1,12 +1,6 @@
 <application>
   <component name="IntentionManagerSettings">
     <ignoreAction name="Flow JS/Specify variable type explicitly" />
-    <ignoreAction name="TypeScript/Generate reference path comment" />
-    <ignoreAction name="TypeScript/Make 'private'" />
-    <ignoreAction name="TypeScript/Make 'protected'" />
-    <ignoreAction name="TypeScript/Make 'public'" />
-    <ignoreAction name="TypeScript/Remove type declaration" />
-    <ignoreAction name="TypeScript/Specify variable type explicitly" />
     <ignoreAction name="XML/Add Xsi schema location for external resource" />
     <ignoreAction name="XML/Choose Color" />
     <ignoreAction name="XML/Collapse empty tag" />
@@ -15,5 +9,41 @@
     <ignoreAction name="XML/Manually setup external resource" />
     <ignoreAction name="XML/Reset to default namespace" />
     <ignoreAction name="XML/Split current tag" />
+    <ignoreAction name="CSS/Convert color to HEX" />
+    <ignoreAction name="CSS/Convert color to HSL/HSLA" />
+    <ignoreAction name="CSS/Convert color to RGB/RGBA" />
+    <ignoreAction name="CSS/Create Selector" />
+    <ignoreAction name="CSS/Expand CSS shorthand property" />
+    <ignoreAction name="CSS/Extract Inline CSS" />
+    <ignoreAction name="CSS/Extract image" />
+    <ignoreAction name="CSS/Replace quotes" />
+    <ignoreAction name="CSS/Replace with color name" />
+    <ignoreAction name="CSS/Update background-image size" />
+    <ignoreAction name="HTML/Update background-image size" />
+    <ignoreAction name="JavaScript/Shift Operation/Replace Multiply with Shift" />
+    <ignoreAction name="JavaScript/Shift Operation/Replace Shift with Multiply" />
+    <ignoreAction name="Markdown/Flexmark Spec/Edit spec example options" />
+    <ignoreAction name="Markdown/Flexmark Spec/Toggle spec example IGNORE option" />
+    <ignoreAction name="Markdown/Headers/Change to atx header" />
+    <ignoreAction name="Markdown/Headers/Change to setext header" />
+    <ignoreAction name="Markdown/Headers/Equalize setext header marker" />
+    <ignoreAction name="Markdown/Links/Change explicit link to wiki link" />
+    <ignoreAction name="Markdown/Links/Change link to URI file://" />
+    <ignoreAction name="Markdown/Links/Change link to URL http://" />
+    <ignoreAction name="Markdown/Links/Change link to page relative" />
+    <ignoreAction name="Markdown/Links/Change link to raw target" />
+    <ignoreAction name="Markdown/Links/Change link to reference" />
+    <ignoreAction name="Markdown/Links/Change link to repository relative" />
+    <ignoreAction name="Markdown/Links/Shorten link, all else equal" />
+    <ignoreAction name="Markdown/Lists/Toggle spec example IGNORE option" />
+    <ignoreAction name="Markdown/Lists/Toggle task list item done" />
+    <ignoreAction name="Markdown/References/Delete unused reference" />
+    <ignoreAction name="Markdown/References/Inline reference" />
+    <ignoreAction name="Markdown/Table of Contents/Edit Table of Contents style" />
+    <ignoreAction name="Markdown/Wiki Links/Change wiki link to explicit link" />
+    <ignoreAction name="Markdown/Wiki Links/Delete unnecessary wiki link text" />
+    <ignoreAction name="Markdown/Wiki Links/Delete wiki link page reference" />
+    <ignoreAction name="Markdown/Wiki Links/Delete wiki link text" />
+    <ignoreAction name="Markdown/Wiki Links/Swap wiki link text and page reference" />
   </component>
 </application>

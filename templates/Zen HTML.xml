@@ -29,15 +29,8 @@
   <template name="cc:noie" value="&lt;!--[if !IE]&gt;&lt;!--&gt;&#10;  $END$&#10;&lt;!--&lt;![endif]--&gt;" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="!" value="&lt;!doctype html&gt;&#10;&lt;html lang=&quot;$ENV_LOCALE$&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;$CHARSET$&quot;&gt;&#10;             &lt;meta name=&quot;viewport&quot; content=&quot;width=$WIDTH$, user-scalable=$SCALABLE$, initial-scale=$INITIAL_SCALE$, maximum-scale=$MAX_SCALE$, minimum-scale=$MIN_SCALE$&quot;&gt;&#10;                         &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=$IE$&quot;&gt;&#10;             &lt;title&gt;$TITLE$&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="!" value="&lt;!doctype html&gt;&#10;&lt;html lang=&quot;$ENV_LOCALE$&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;UTF-8&quot;&gt;&#10;&lt;title&gt;$TITLE$&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="ENV_LOCALE" expression="" defaultValue="&quot;en&quot;" alwaysStopAt="true" />
-    <variable name="CHARSET" expression="" defaultValue="&quot;UTF-8&quot;" alwaysStopAt="true" />
-    <variable name="WIDTH" expression="" defaultValue="&quot;device-width&quot;" alwaysStopAt="true" />
-    <variable name="SCALABLE" expression="" defaultValue="&quot;no&quot;" alwaysStopAt="true" />
-    <variable name="INITIAL_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
-    <variable name="MAX_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
-    <variable name="MIN_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
-    <variable name="IE" expression="" defaultValue="&quot;edge&quot;" alwaysStopAt="true" />
     <variable name="TITLE" expression="" defaultValue="&quot;Document&quot;" alwaysStopAt="true" />
     <context />
   </template>
@@ -134,10 +127,6 @@
   <template name="meta:win" value="&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=windows-1251&quot;&gt;" description="&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=Win-1251&quot;&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="meta:edge" value="&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=$IE$&quot;&gt;" description="&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="IE" expression="" defaultValue="&quot;edge&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
   <template name="meta:vp" value="&lt;meta name=&quot;viewport&quot; content=&quot;width=$WIDTH$, user-scalable=$SCALABLE$, initial-scale=$INITIAL_SCALE$, maximum-scale=$MAX_SCALE$, minimum-scale=$MIN_SCALE$&quot;&gt;" description="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="WIDTH" expression="" defaultValue="&quot;device-width&quot;" alwaysStopAt="true" />
     <variable name="SCALABLE" expression="" defaultValue="&quot;no&quot;" alwaysStopAt="true" />
@@ -148,10 +137,6 @@
   </template>
   <template name="meta:compat" value="&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;$VAR0$&quot;&gt;" description="&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=7&quot;&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VAR0" expression="" defaultValue="&quot;IE=7&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="meta:redirect" value="&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0; url=$URL$&quot;&gt;" description="&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0; url=http://example.com&quot;&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="URL" expression="" defaultValue="&quot;http://example.com&quot;" alwaysStopAt="true" />
     <context />
   </template>
   <template name="style" value="&lt;style&gt;$END$&lt;/style&gt;" description="&lt;style&gt;...&lt;/style&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
@@ -731,14 +716,7 @@
   <template name="cmd" value="&lt;command&gt;" description="&lt;command&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="doc" value="&lt;html&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;$CHARSET$&quot;&gt;&#10;             &lt;meta name=&quot;viewport&quot; content=&quot;width=$WIDTH$, user-scalable=$SCALABLE$, initial-scale=$INITIAL_SCALE$, maximum-scale=$MAX_SCALE$, minimum-scale=$MIN_SCALE$&quot;&gt;&#10;                         &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=$IE$&quot;&gt;&#10;             &lt;title&gt;$TITLE$&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="CHARSET" expression="" defaultValue="&quot;UTF-8&quot;" alwaysStopAt="true" />
-    <variable name="WIDTH" expression="" defaultValue="&quot;device-width&quot;" alwaysStopAt="true" />
-    <variable name="SCALABLE" expression="" defaultValue="&quot;no&quot;" alwaysStopAt="true" />
-    <variable name="INITIAL_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
-    <variable name="MAX_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
-    <variable name="MIN_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
-    <variable name="IE" expression="" defaultValue="&quot;edge&quot;" alwaysStopAt="true" />
+  <template name="doc" value="&lt;html&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;UTF-8&quot;&gt;&#10;&lt;title&gt;$TITLE$&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="TITLE" expression="" defaultValue="&quot;Document&quot;" alwaysStopAt="true" />
     <context />
   </template>
@@ -825,15 +803,8 @@
     <variable name="TITLE" expression="" defaultValue="&quot;Document&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="html:5" value="&lt;!doctype html&gt;&#10;&lt;html lang=&quot;$ENV_LOCALE$&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;UTF-8&quot;&gt;&#10;             &lt;meta name=&quot;viewport&quot; content=&quot;width=$WIDTH$, user-scalable=$SCALABLE$, initial-scale=$INITIAL_SCALE$, maximum-scale=$MAX_SCALE$, minimum-scale=$MIN_SCALE$&quot;&gt;&#10;                         &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=$IE$&quot;&gt;&#10;             &lt;title&gt;$TITLE$&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="html:5" value="&lt;!doctype html&gt;&#10;&lt;html lang=&quot;$ENV_LOCALE$&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;UTF-8&quot;&gt;&#10;&lt;title&gt;$TITLE$&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="ENV_LOCALE" expression="" defaultValue="&quot;en&quot;" alwaysStopAt="true" />
-    <variable name="CHARSET" expression="" defaultValue="&quot;UTF-8&quot;" alwaysStopAt="true" />
-    <variable name="WIDTH" expression="" defaultValue="&quot;device-width&quot;" alwaysStopAt="true" />
-    <variable name="SCALABLE" expression="" defaultValue="&quot;no&quot;" alwaysStopAt="true" />
-    <variable name="INITIAL_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
-    <variable name="MAX_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
-    <variable name="MIN_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
-    <variable name="IE" expression="" defaultValue="&quot;edge&quot;" alwaysStopAt="true" />
     <variable name="TITLE" expression="" defaultValue="&quot;Document&quot;" alwaysStopAt="true" />
     <context />
   </template>
