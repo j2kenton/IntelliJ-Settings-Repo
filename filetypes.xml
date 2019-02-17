@@ -1,9 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping pattern="scratch_pad" type="PLAIN_TEXT" />
-      <mapping ext="woff" type="PLAIN_TEXT" />
-      <mapping pattern="ivSearch.scss" type="SCSS" />
-    </extensionMap>
-  </component>
-</application>
