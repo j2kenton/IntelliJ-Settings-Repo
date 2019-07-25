@@ -24,19 +24,11 @@
   </component>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
-      <entry key="Default">
-        <PlaceSettings>
-          <option name="EXPAND_BY_DEFAULT" value="false" />
-        </PlaceSettings>
-      </entry>
       <entry key="TestsFiledAssertions">
         <PlaceSettings>
           <option name="ENABLE_SYNC_SCROLL" value="false" />
           <option name="EXPAND_BY_DEFAULT" value="false" />
         </PlaceSettings>
-      </entry>
-      <entry key="VcsLogView">
-        <PlaceSettings />
       </entry>
     </option>
   </component>
